@@ -1,0 +1,6 @@
+import pandas as pd,title,text,label
+from sklearn.model_selection import train_test_split,Donald Trump says vaccines cause autism,President Trump made comments on vaccines today...,FAKE
+from sklearn.feature_extraction.text import TfidfVectorizer,NASA confirms water on Mars,NASA scientists revealed today that water exists...,REAL
+from sklearn.naive_bayes import MultinomialNB,COVID-19 vaccine chips people,A viral post claims COVID-19 vaccines contain chips...,FAKE
+from sklearn.metrics import accuracy_score,Apple releases iPhone 15,Apple has launched the iPhone 15 with new features...,REAL
+,Aliens land in New York,Several news outlets report UFO sightings...,FAKE
